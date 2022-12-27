@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "wook2"
 description              : "wook2 Dev Archive"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://17wook2.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "17wook2/17wook2.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -232,7 +232,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-paginate
-  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
