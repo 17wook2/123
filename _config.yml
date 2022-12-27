@@ -98,7 +98,7 @@ social:
 analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-V4TCXLN997"
     anonymize_ip         : # true, false (default)
 
 
@@ -110,6 +110,7 @@ author:
   location         : "Somewhere"
   email            :
   links:
+    - https://17wook2.github.io
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
@@ -230,6 +231,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -291,3 +294,4 @@ defaults:
       share: true
       related: true
       sidebar_main: true
+
