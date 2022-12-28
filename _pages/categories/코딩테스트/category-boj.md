@@ -1,11 +1,11 @@
 ---
-title: "ps"
+title: "백준"
 layout: archive
-permalink: categories/ps
+permalink: categories/boj
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.ps %}
+{% assign posts = site.categories.boj %}
 {% for post in posts %} {% include archive-single-custom.html type=page.entries_layout %} {% endfor %}
     
