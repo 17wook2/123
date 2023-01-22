@@ -4,14 +4,14 @@
       <li>
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style>
       </li>
-       <span class="nav__sub-title">Etc</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "blog" %}
-                    <li><a href="/categories/blog" class="">blog ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+       <span class="nav__sub-title">Spring</span>
+               <ul>
+                   {% for category in site.categories %}
+                       {% if category[0] == "spring" %}
+                           <li><a href="/categories/blog" class="">spring ({{category[1].size}})</a></li>
+                       {% endif %}
+                   {% endfor %}
+               </ul>
         <span class="nav__sub-title">코딩테스트</span>
         <ul>
             {% for category in site.categories %}
@@ -20,5 +20,13 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <span class="nav__sub-title">Etc</span>
+                <ul>
+                    {% for category in site.categories %}
+                        {% if category[0] == "blog" %}
+                            <li><a href="/categories/blog" class="">blog ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
   </ul>
  </nav>
