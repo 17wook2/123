@@ -19,6 +19,14 @@
                           {% endif %}
                       {% endfor %}
                </ul>
+               <ul>
+                    {% for category in site.categories %}
+                          {% if category[0] == "security" %}
+                              <li><a href="/categories/security" class="">security ({{category[1].size}})</a></li>
+                          {% endif %}
+                    {% endfor %}
+               </ul>
+
         <span class="nav__sub-title">코딩테스트</span>
         <ul>
             {% for category in site.categories %}
